@@ -6,7 +6,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Power Platform](https://img.shields.io/badge/Power%20Platform-PCF-742774?logo=microsoft)](https://learn.microsoft.com/power-apps/developer/component-framework)
 
-![SmartLookup preview card on a Dataverse Created By field](docs/screenshots/hero.png)
+<p align="center">
+  <img src="docs/screenshots/hero.png" alt="SmartLookup preview card on a Dataverse lookup — Contoso Ltd shown with tier, region, open cases and revenue" width="420" />
+</p>
 
 Perfect for any model-driven form that uses lookups to **Accounts, Contacts, Leads, Opportunities, Users, Teams, or custom tables** — i.e. every model-driven form ever.
 
