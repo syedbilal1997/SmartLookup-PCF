@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+
+  <data name="SmartLookup_DisplayName" xml:space="preserve"><value>Smart Lookup</value></data>
+  <data name="SmartLookup_Description" xml:space="preserve"><value>A rich hover-preview card for Dataverse lookup fields. Drop on any Lookup column — the chip stays familiar, but hovering reveals the related record's primary fields, image and a one-click "Open record" button. Linear/Notion-grade lookup UX, zero config.</value></data>
+
+  <data name="Value_DisplayName" xml:space="preserve"><value>Lookup</value></data>
+  <data name="Value_Description" xml:space="preserve"><value>The Lookup column to enhance. The control reads the related record's logical name automatically — no extra setup needed.</value></data>
+
+  <data name="PreviewFields_DisplayName" xml:space="preserve"><value>Preview fields (override)</value></data>
+  <data name="PreviewFields_Description" xml:space="preserve"><value>Optional comma-separated list of attribute logical names (max 6). Highest priority — overrides the Quick View Form and the smart defaults. Leave empty to use the related entity's Quick View Form (recommended). Example: jobtitle,parentcustomerid,emailaddress1,telephone1</value></data>
+
+  <data name="UseQuickViewForm_DisplayName" xml:space="preserve"><value>Use Quick View Form</value></data>
+  <data name="UseQuickViewForm_Description" xml:space="preserve"><value>When On (recommended), SmartLookup reads the related entity's Quick View Form to decide which fields to show. Admins configure fields by editing the Quick View Form in the standard Power Apps form designer — no per-PCF setup required. When Off, the smart-default field list for the entity is used.</value></data>
+
+  <data name="QuickViewFormName_DisplayName" xml:space="preserve"><value>Quick View Form name</value></data>
+  <data name="QuickViewFormName_Description" xml:space="preserve"><value>Optional. If the related entity has multiple Quick View Forms, type the exact name of the one to use. Leave empty to auto-select "Information" if present, otherwise the first active Quick View Form on the entity.</value></data>
+
+  <data name="AccentColor_DisplayName" xml:space="preserve"><value>Accent colour (hex)</value></data>
+  <data name="AccentColor_Description" xml:space="preserve"><value>Optional hex colour for the avatar gradient and accent strip (e.g. #0078d4). Defaults to Microsoft blue.</value></data>
+
+  <data name="Position_DisplayName" xml:space="preserve"><value>Card position</value></data>
+  <data name="Position_Description" xml:space="preserve"><value>Where the preview card appears relative to the lookup chip.</value></data>
+  <data name="Position_Auto" xml:space="preserve"><value>Auto (best fit)</value></data>
+  <data name="Position_Auto_Desc" xml:space="preserve"><value>Picks the side with the most viewport space available.</value></data>
+  <data name="Position_Below" xml:space="preserve"><value>Below</value></data>
+  <data name="Position_Below_Desc" xml:space="preserve"><value>Always render below the chip.</value></data>
+  <data name="Position_Above" xml:space="preserve"><value>Above</value></data>
+  <data name="Position_Above_Desc" xml:space="preserve"><value>Always render above the chip.</value></data>
+  <data name="Position_Right" xml:space="preserve"><value>Right</value></data>
+  <data name="Position_Right_Desc" xml:space="preserve"><value>Always render to the right of the chip.</value></data>
+
+  <data name="ShowOpenButton_DisplayName" xml:space="preserve"><value>Show "Open record" button</value></data>
+  <data name="ShowOpenButton_Description" xml:space="preserve"><value>Show a button at the bottom of the preview card to open the related record in a new dialog.</value></data>
+  <data name="On_DisplayName" xml:space="preserve"><value>On</value></data>
+  <data name="On_Description" xml:space="preserve"><value>Show the Open record button.</value></data>
+  <data name="Off_DisplayName" xml:space="preserve"><value>Off</value></data>
+  <data name="Off_Description" xml:space="preserve"><value>Hide the Open record button.</value></data>
+
+  <data name="HoverDelay_DisplayName" xml:space="preserve"><value>Hover delay (ms)</value></data>
+  <data name="HoverDelay_Description" xml:space="preserve"><value>Milliseconds to wait on hover before the preview card appears. Default 250. Set to 0 for instant.</value></data>
+</root>

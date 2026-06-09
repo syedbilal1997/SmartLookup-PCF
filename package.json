@@ -1,0 +1,53 @@
+{
+  "name": "smart-lookup-pcf",
+  "version": "1.1.0",
+  "description": "SmartLookup — rich hover-preview card for Dataverse lookup fields in model-driven Power Apps. Drop on any Lookup column and get a Linear/Notion-grade record preview without leaving the form.",
+  "author": {
+    "name": "Syed Bilal Ahmed",
+    "url": "https://syedbilal365.hashnode.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syedbilal1997/SmartLookup-PCF.git"
+  },
+  "bugs": {
+    "url": "https://github.com/syedbilal1997/SmartLookup-PCF/issues"
+  },
+  "homepage": "https://github.com/syedbilal1997/SmartLookup-PCF#readme",
+  "keywords": [
+    "pcf",
+    "powerapps",
+    "power-platform",
+    "dataverse",
+    "model-driven",
+    "lookup",
+    "preview",
+    "hover-card",
+    "field-control",
+    "ux"
+  ],
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "lint": "pcf-scripts lint",
+    "lint:fix": "pcf-scripts lint fix",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start",
+    "start:watch": "pcf-scripts start watch",
+    "refreshTypes": "pcf-scripts refreshTypes"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@microsoft/eslint-plugin-power-apps": "^0.2.51",
+    "@types/node": "^18.19.86",
+    "@types/powerapps-component-framework": "^1.3.16",
+    "eslint-plugin-promise": "^7.1.0",
+    "globals": "^15.15.0",
+    "pcf-scripts": "^1",
+    "pcf-start": "^1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "8.44.0"
+  }
+}
