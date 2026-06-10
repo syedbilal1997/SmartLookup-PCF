@@ -65,6 +65,8 @@ That's it. Save and publish — the chip + preview card go live on next form loa
 
 To customise which fields appear, edit the related entity's **Quick View Form** (Power Apps → table → Forms → Quick View Form). SmartLookup picks up your changes on the next form refresh.
 
+📖 **Walkthrough:** [SmartLookup — how I taught a PCF to read your Quick View Forms](https://syedbilal365.hashnode.dev/smartlookup-how-i-taught-a-pcf-to-read-your-quick-view-forms)
+
 ---
 
 ## Properties
